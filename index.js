@@ -2,9 +2,9 @@ const Discord = require("discord.js");
 const Client = new Discord.Client();
 const prefix = "/";
 Client.on("ready", ()=>{
-    console.log("MONEY MONEY MONEY!")
-Client.user.setActivity("BTWbs do /Help")
-})
+    console.log("MONEY MONEY MONEY!");
+Client.user.setActivity("BTWbs do /Help");
+});
 
 Client.on("message", (message)=>{
     if(!message.content.startsWith(prefix)) return;
@@ -45,6 +45,5 @@ Client.on("message", (message)=>{
         message.channel.send("Guess what, " + message.author + " THERE'S A NEW QUIZLET SET!!!");
 
     }
-})
+});
 Client.login(process.env.token);
-
