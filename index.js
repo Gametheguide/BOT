@@ -1,4 +1,3 @@
-Client.login(process.env.token)
 const Discord = require("discord.js")
 const Client = new Discord.Client()
 const prefix = "/"
@@ -47,4 +46,4 @@ Client.on("message", (message)=>{
 
     }
 })
-
+Client.login(process.env.token)
