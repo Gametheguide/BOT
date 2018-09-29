@@ -37,7 +37,7 @@ Client.on("message", (message)=>{
 
     if(message.content.startsWith(prefix + "Performance")){
         message.channel.send(message.author + " TOaSTer BEgoNE!");
-        message.channel.send("https://www.youtube.com/watch?v=GlmTSVUYNrs | FOR TF2");
+        message.channel.send("https://www.youtube.com/watch?v=GlmTSVUYNrs | FOR TF2 | https://pcgamingwiki.com/wiki/Dead_by_Daylight#Availability | FOR DBD (danke @Hanged Man)");
         message.channel.send("Message @Gameguide to add sum m0re");
     }
 
